@@ -5,7 +5,5 @@ require 'sinatra'
   end
 
   get '/cat' do
-    "<div style='border: 3px solid black'>
-       <img src='http://bit.ly/1eze8aE'>
-    </div>"
+    erb :cat
   end
